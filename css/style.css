@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Container */
+.container {
+  margin: auto;
+}
+/* Button */
+.button {
+  font-weight: 400;
+  text-decoration: none;
+  border-radius: 40px;
+  padding: 8px 16px;
+}
+/* Toolbar */
+.toolbar {
+  background-color: #255ee9;
+  line-height: 80px;
+}
+/* Menu */
+.menu {
+  width: 70%;
+}
+
+.side {
+  width: 15%;
+  height: 20%;
+  float: left;
+}
+
+.logo {
+  vertical-align: middle;
+}
+
+.options {
+  width: 70%;
+  height: 20%;
+  float: left;
+  text-align: center;
+}
+
+.options .link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 24px;
+}
+
+.login-side { 
+  text-align: right;
+}
+
+.button.login {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+}
+/* Main */
+.container-study {
+  background-image: url(../img/jumbo.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+}
+/* Introduction */
+.study-text {
+  width: 44%;
+  margin: auto;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+h1 .study {
+  font-size: 60px;
+}
+
+p .study {
+  font-size: 24px;
+}
+/* Buttons */
+.row-buttons {
+  text-align: center;
+}
+
+.button.mac {
+  background-color: white;
+  color: black;
+  font-size: 22px;
+  margin: 16px;
+  padding: 10px 32px;
+}
+
+.button.browser {
+  background-color: #23272a;
+  color: white;
+  font-size: 22px;
+  margin: 16px;
+  padding: 10px 32px;
+}
+/* Backgrounds */
+.bg-white {
+  position: relative;
+  padding: 200px 0;
+} 
+
+.bg-gray {
+  background-color: #e6e6e6;
+  padding: 100px 0;
+}
+
+.bottom {
+  position: absolute;
+  opacity: 10%;
+  bottom: 0;
+}
+
+.top {
+  position: absolute;
+  opacity: 10%;
+  transform: rotate(0.5turn);
+  top: 0;
+}
+
+.container.main {
+  width: 70%;
+}
+/* Images */
+.main-image {
+  width: 65%;
+  float: left;
+}
+/* Texts */
+.main-text {
+  width: 35%;
+  float: left;
+}
+
+.main-text.ext, .action {
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+
+.main-text h2 {
+  font-size: 56px;
+  line-height: 60px;
+  margin: 32px 0;
+}
+
+.main-text p {
+  font-size: 18px;
+}
+
+.main-rel {
+  text-align: center;
+}
+/* Closure */
+.ready {
+  width: 40%;
+  height: 10%;
+  margin: auto;
+  background-image: url(../img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  line-height: 70px;
+}
+
+.ready h2 {
+  font-size: 26px;
+  font-weight: 900;
+}
+/* Button */
+.final .button.mac {
+  background-color: #8ea1e1;
+  color: white;
+  padding: 10px 32px;
+}
