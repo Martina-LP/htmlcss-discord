@@ -27,12 +27,15 @@
   line-height: 80px;
 }
 /* Menu */
-.menu {
+.menu, .options, .container.main, .container.footer {
   width: 70%;
 }
 
-.side {
+.side, .column {
   width: 15%;
+}
+
+.side {
   height: 20%;
   float: left;
 }
@@ -42,7 +45,6 @@
 }
 
 .options {
-  width: 70%;
   height: 20%;
   float: left;
   text-align: center;
@@ -122,6 +124,7 @@ p .study {
 
 .bottom {
   position: absolute;
+  display: block;
   opacity: 10%;
   bottom: 0;
 }
@@ -131,10 +134,6 @@ p .study {
   opacity: 10%;
   transform: rotate(0.5turn);
   top: 0;
-}
-
-.container.main {
-  width: 70%;
 }
 /* Images */
 .main-image {
@@ -186,4 +185,88 @@ p .study {
   background-color: #8ea1e1;
   color: white;
   padding: 10px 32px;
+}
+/* Footer */
+footer {
+  background: #23272a;
+}
+
+.column a:hover {
+  text-decoration: underline;
+}
+
+.social-section {
+  width: 40%;
+  padding: 32px;
+}
+
+.social i {
+  color: white;
+  font-size: 24px;
+  margin: 10px;
+}
+
+.column, .social-section {
+  float: left;
+}
+
+.foot_logo, .foot_register {
+  width: 50%;
+  float: left;
+}
+
+.column h3 {
+  font-size: 24px;
+  margin-top: 32px;
+  color: #6a80c9;
+}
+
+.social-section h2 {
+  font-size: 48px;
+  line-height: 48px;
+  margin-bottom: 16px;
+  color: #6a80c9;
+}
+
+footer .row {
+  padding: 16px 0;
+}
+
+.language img {
+  height: 16px;
+}
+.ita {
+  display: inline-block;
+  color: white;
+  font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.column a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 32px 0;
+}
+
+.last {
+  position: relative;
+  width: 50%;
+  height: 200x;
+  border-top: 1px solid #6a80c9;
+  padding-top: 32px;
+  float: left;
+}
+
+.last.register {
+  text-align: right;
+}
+
+.button.registrati {
+  background: #8ea1e1;
+  color: white;
 }
