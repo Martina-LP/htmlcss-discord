@@ -35,7 +35,7 @@
   width: 15%;
 }
 
-.side {
+.side, .options {
   height: 20%;
   float: left;
 }
@@ -45,8 +45,6 @@
 }
 
 .options {
-  height: 20%;
-  float: left;
   text-align: center;
 }
 
@@ -99,14 +97,14 @@ p .study {
 .button.mac {
   background-color: white;
   color: black;
-  font-size: 22px;
-  margin: 16px;
-  padding: 10px 32px;
 }
 
 .button.browser {
   background-color: #23272a;
   color: white;
+}
+
+.large {
   font-size: 22px;
   margin: 16px;
   padding: 10px 32px;
@@ -122,16 +120,17 @@ p .study {
   padding: 100px 0;
 }
 
-.bottom {
+.bottom, .top {
   position: absolute;
-  display: block;
   opacity: 10%;
+}
+
+.bottom {
+  display: block;
   bottom: 0;
 }
 
 .top {
-  position: absolute;
-  opacity: 10%;
   transform: rotate(0.5turn);
   top: 0;
 }
